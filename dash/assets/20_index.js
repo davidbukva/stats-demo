@@ -138,14 +138,14 @@ window.dash_clientside = Object.assign({}, window.dash_clientside, {
             y: y,
             mode: "markers",
             type: "scatter",
-            name: "Data",
+            name: "Data (y = x + N(0, sigma))",
           },
           {
             x: x,
             y: x.map((xi) => slope * xi + intercept),
             mode: "lines",
             type: "scatter",
-            name: "Regression Line",
+            name: "Regression Line (y = slope * x + intercept)",
           },
         ],
         layout: {
