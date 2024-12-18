@@ -1,0 +1,17 @@
+.slider {
+    margin-right: 10px;
+}
+
+.stats-container {
+    margin-left: 10px;
+}
+
+#new-dataset-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #131c30;
+    color: #fff;
+}

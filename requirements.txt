@@ -1,0 +1,5 @@
+dash>=2.0.0
+numpy
+plotly>=5.0.0
+scipy
+dash_bootstrap_components
